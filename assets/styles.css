@@ -15,40 +15,26 @@ body{
 .content {
     max-width: 1280px;
     margin: 0 auto;
-    padding: 0px 20px;
+    padding: 0px 40px;
     position: relative;
 }
 /*----------------------------------HEADER----------------------------------*/
 .header {
-    background-color: #fff;
-    padding: 20px 0;
-    padding: 0px 40px;
-    /* display: flex
-; */
-    /* align-items: center; */
-    display: grid
-; 
-    flex-direction: row;
-    max-width: 1280px;
-   
+     max-width: 1280px;
+    height: auto;
+    margin: 0px 40px;
+    display: grid;
 }
 .container{
-     display: grid
-; 
- align-items: center;
-    grid-template-columns: 1fr 12fr 1fr;
+         display: grid;
+    grid-template-columns: 128px 1fr 1fr;
+    align-items: center;
+    gap: 32px;
 }
-
-
-.nav{
-        display: flex
-;
+ul{
+        display: flex;
     justify-content: center;
-}
-}
-nav ul {
+    align-items: center;
+    gap: 20px;
     list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
 }
