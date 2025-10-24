@@ -22,14 +22,18 @@ body{
 .header {
      max-width: 1280px;
     height: auto;
-    margin: 0px 40px;
     display: grid;
 }
 .container{
          display: grid;
     grid-template-columns: 128px 1fr 1fr;
     align-items: center;
-    gap: 32px;
+        gap: 32px;
+    margin: 16px 40px 72px 40px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
 }
 ul{
         display: flex;
@@ -38,3 +42,26 @@ ul{
     gap: 20px;
     list-style: none;
 }
+
+
+ul>li>a {
+    text-decoration: none;
+    color: #111827;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 4px 8px;
+}
+
+ul>li>a:hover {
+    color: #2e9215;
+    text-decoration: underline;
+}
+
+.learn-more {
+    width: 98px;
+    padding: 8px;
+    cursor: pointer;
+    align-items: center;
+}
+
+
