@@ -100,7 +100,6 @@ ul>li>a:hover {
     display: flex;
     text-align: center;
     gap: 24px;
-    /* margin-bottom: 80px; */
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -120,7 +119,6 @@ ul>li>a:hover {
     display: inline-block;
 }
 
-/* подсветка отдельного слова */
 .head1 .highlight {
     font-style: regular;
     background: linear-gradient(90deg, #111827, #003c58, var(--var1-color), #5a6611);
@@ -158,6 +156,7 @@ linear infinite;
     margin-bottom: 16px;
     /* text-align: center; */
 }
+/*-------------------------section notions-------------------------------------------*/
 .logos-container {
     display: grid;
     grid-template-columns: repeat(6, auto);
@@ -178,3 +177,76 @@ linear infinite;
     transform: scale(1.2);  
     transition: transform 0.3s ease;
 }
+/*-------------------------section notions-------------------------------------------*/
+.section-notions {
+        width: 1280px;
+    margin-bottom: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.notions-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 120px;
+    flex-direction: column;
+
+}
+.Benefits{
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--var1-color);
+    margin-bottom: 40px;
+    text-align: center;
+}
+.We{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--var1-color);
+    margin-bottom: 80px;
+    max-width: 600px;
+    text-align: center;
+    line-height: 140%;
+}
+.Area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+.notions{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+li{
+    list-style: none;
+    max-width: 300px;
+    text-align: center;
+}
+li h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--var1-color);
+    margin-bottom: 12px;
+}
+li p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--var1-color);
+    line-height: 140%;
+}
+li img {
+    width: 80px;
+    margin-bottom: 16px;
+}
+
+
