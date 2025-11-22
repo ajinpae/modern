@@ -12,7 +12,9 @@ body {
     background-color: #f4f4f4;
     color: #333;
     display: flex;
+    margin-right: 20px;
     flex-wrap: wrap;
+    margin-left: 20px;
     justify-content: space-around;
 }
 
@@ -53,8 +55,8 @@ h1 {
 
 ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     gap: 20px;
     list-style: none;
 }
@@ -154,7 +156,29 @@ linear infinite;
     font-weight: 600;
     color: var(--var1-color);
     margin-bottom: 16px;
+    margin-left: 20px;
     /* text-align: center; */
+}
+/*-------------------------section notions-------------------------------------------*/
+.logos-container {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    gap: 80px;
+    margin-top:101px;
+    margin-bottom:50px;
+    justify-content: center;
+    align-items: center;
+}
+.logo-image {
+    width: 150px;
+    max-width:1200px;
+    max-height: 400px;
+    object-fit: contain;
+    filter: contrast(0);
+}
+.logo-image:hover {
+    transform: scale(1.2);  
+    transition: transform 0.3s ease;
 }
 /*-------------------------section notions-------------------------------------------*/
 .logos-container {
@@ -180,7 +204,6 @@ linear infinite;
 /*-------------------------section notions-------------------------------------------*/
 .section-notions {
         width: 1280px;
-    margin-bottom: 160px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -188,47 +211,62 @@ linear infinite;
 }
 .notions-container {
     display: flex;
-    justify-content: center;
-    gap: 60px;
+    gap: 76px;
     margin-bottom: 120px;
-    flex-direction: column;
-
+    flex-wrap: wrap;
 }
+.notions-header{
+    display: flex;
+    flex-direction: column;
+}
+
 .Benefits{
     font-family: "Inter", sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    color: var(--var1-color);
+    font-size: 14px;
+    font-weight: 300;
+    color: #5a6611;
+    letter-spacing: -1px;
     margin-bottom: 40px;
-    text-align: center;
+    /* text-align: center; */
 }
 .We{
-    font-family: "Inter", sans-serif;
-    font-size: 16px;
+    /* font-family: "Inter", sans-serif; */
+    font-size: 44px;
     font-weight: 400;
     color: var(--var1-color);
-    margin-bottom: 80px;
+    margin-bottom: 51px;
     max-width: 600px;
-    text-align: center;
+    /* text-align: center; */
     line-height: 140%;
 }
 .Area{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 40px;
+    /* justify-content: center; */
+    opacity: 70%;
+    /* gap: 40px; */
 }
-.notions{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
+
+.section-notions .notion ul li {
+    box-sizing: border-box;
+    padding: 16px 20px; /* внутренние отступы самой колонки (меняй по вкусу) */
+}
+
+.notion ul li .border {
+    display: block;
+    /* width: calc(100% - 32px); */
+    margin: 0 0 42px;
+    height: 1px;
+    opacity: 10%;
+    background: #000000;
+    color: #000000;
+    overflow: hidden;
 }
 li{
     list-style: none;
     max-width: 300px;
     text-align: center;
+    text-align: left;
 }
 li h2 {
     font-family: "Inter", sans-serif;
@@ -238,6 +276,7 @@ li h2 {
     margin-bottom: 12px;
 }
 li p {
+    margin-top: 20px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -245,8 +284,15 @@ li p {
     line-height: 140%;
 }
 li img {
-    width: 80px;
-    margin-bottom: 16px;
+    /* display: flex; */
+    width: 24px;
+    margin-bottom: 24px;
+    align-content: space-around;
+    justify-content: space-between;
 }
-
-
+/*-------------------------section mountains-------------------------------------------*/
+.mountains-image {
+    width: 1280px;
+    height: auto;
+    margin-bottom: -8px;
+}
