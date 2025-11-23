@@ -55,8 +55,6 @@ h1 {
 
 ul {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     gap: 20px;
     list-style: none;
 }
@@ -230,18 +228,20 @@ linear infinite;
     /* text-align: center; */
 }
 .We{
-    /* font-family: "Inter", sans-serif; */
-    font-size: 44px;
+    font-family: "Inter", sans-serif;
+    font-size: 55px;
     font-weight: 400;
     color: var(--var1-color);
-    margin-bottom: 51px;
     max-width: 600px;
-    /* text-align: center; */
+    text-align: left;
     line-height: 140%;
+    /* display: flex; */
+    /* justify-content: flex-start; */
 }
 .Area{
     display: flex;
     flex-wrap: wrap;
+    margin-top: 51px;
     /* justify-content: center; */
     opacity: 70%;
     /* gap: 40px; */
@@ -262,7 +262,7 @@ linear infinite;
     color: #000000;
     overflow: hidden;
 }
-li{
+ma{
     list-style: none;
     max-width: 300px;
     text-align: center;
@@ -291,8 +291,94 @@ li img {
     justify-content: space-between;
 }
 /*-------------------------section mountains-------------------------------------------*/
-.mountains-image {
+.mountains{
     width: 1280px;
     height: auto;
     margin-bottom: -8px;
+}
+/*-------------------------section prices-------------------------------------------*/
+.prices-container {
+    width: 1280px;
+    display: flex;
+    margin-bottom: 120px;
+    margin-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.price{
+     display: flex;
+    gap: 40px;
+    flex-direction: column;
+}
+.prices>ul{
+     box-sizing: border-box;
+    display: flex;
+    padding: 16px 20px; /* внутренние отступы самой колонки (меняй по вкусу) */
+    flex-direction: column;
+}
+.button1{
+    font-family: "Inter", sans-serif;
+    width: 113px;
+    padding: 18px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #ffffff;
+    white-space: nowrap;
+    background-color: #5a6611;
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity:80%;
+}
+    .button1:hover {
+    transform: scale(1.2); 
+    transition: transform 0.3s ease;
+}
+    .number{
+    font-size:18px;
+    opacity: 40%;
+}
+pricing-image {
+    margin-top: 40px;
+}
+.price>p{
+    max-width: 510px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    opacity: 82%;
+    width: 100;
+    font-weight: 00;
+}
+.prices>ul>li{
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    max-width: 510px;
+    text-align: center;
+    gap: 20px;
+    position: relative;
+    text-align: left;
+    font-weight: 500;
+    margin-left: -20px;
+    font-family: "Inter", sans-serif;
+
+    margin-top: 20px;
+    color: var(--var1-color);
+    line-height: 140%;
+    gap: 20px;
+}
+.price .border {
+    display: block;
+    width: calc(90% - 32px);
+    margin-left: 20px;
+       margin: -62px 30px -4px;
+    height: 1px;
+    opacity: 5%;
+    background: #000000;
+    color: #000000;
+    overflow: hidden;
+}
+.price .We{
+    font-family:none;
 }
