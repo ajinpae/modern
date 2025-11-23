@@ -336,8 +336,9 @@ li img {
     transition: transform 0.3s ease;
 }
     .number{
-    font-size:18px;
+    font-size:15px;
     opacity: 40%;
+        margin-top: 2px;
 }
 pricing-image {
     margin-top: 40px;
@@ -370,9 +371,9 @@ pricing-image {
 }
 .price .border {
     display: block;
-    width: calc(90% - 32px);
-    margin-left: 20px;
-       margin: -62px 30px -4px;
+    width: calc(113% - 21px);
+    margin-left: -20px;
+    /* margin: -62px 30px -4px; */
     height: 1px;
     opacity: 5%;
     background: #000000;
