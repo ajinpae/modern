@@ -300,7 +300,6 @@ li img {
 .prices-container {
     width: 1280px;
     display: flex;
-    margin-bottom: 120px;
     margin-top: 120px;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -313,7 +312,7 @@ li img {
 .prices>ul{
      box-sizing: border-box;
     display: flex;
-    padding: 16px 20px; /* внутренние отступы самой колонки (меняй по вкусу) */
+    padding: 16px 20px; 
     flex-direction: column;
 }
 .button1{
@@ -340,7 +339,7 @@ li img {
     opacity: 40%;
         margin-top: 2px;
 }
-pricing-image {
+.pricing-image {
     margin-top: 40px;
 }
 .price>p{
@@ -373,7 +372,6 @@ pricing-image {
     display: block;
     width: calc(113% - 21px);
     margin-left: -20px;
-    /* margin: -62px 30px -4px; */
     height: 1px;
     opacity: 5%;
     background: #000000;
@@ -382,4 +380,39 @@ pricing-image {
 }
 .price .We{
     font-family:none;
+}
+/*-------------------------section specs-------------------------------------------*/   
+.specs-container {
+    padding: 80px 240px 80px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.specs-container>p{
+       font-size: 17px;
+    max-width: 732px;
+    font-family: 'Crimson Text';
+    text-align: center;
+    letter-spacing: 0px;
+    opacity: 82%;
+}
+.specs-container.We{
+    font-family:none;
+}
+.specs-container>.Benefits {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #5a6611;
+    letter-spacing: -1px;
+}
+.specs-container>.border{
+    display: block;
+       width: 151%;
+    margin: 0 0 42px;
+    height: 1px;
+    opacity: 10%;
+    background: #000000;
+    color: #000000;
+    overflow: hidden;
 }
