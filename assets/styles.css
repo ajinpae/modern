@@ -416,3 +416,157 @@ li img {
     color: #000000;
     overflow: hidden;
 }
+/*-------------------------choice-------------------------------------------*/
+.choice-container {
+    width: 1280px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* display: flex; */
+    /* margin-top: 120px; */
+    margin-bottom: 120px;
+    /* gap: 40px; */
+    flex-wrap: wrap;
+    align-items: start;
+    justify-items: stretch;
+}
+.choice-1{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    /* align-items: center; */
+    /* добавлено — стиль карточки */
+    /* background: #ffffff; */                   /* белый фон, чтобы иконки/текст читались */
+    border-radius: 12px;                   /* скругление углов */
+    /* padding: 24px; */                         /* внутренние отступы */
+    box-shadow: 0 0px 10px rgba(17,24,39,0.08); /* мягкая тень */
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+/* hover — лёгкое "поднятие" */
+.choice-1:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(17,24,39,0.14);
+}
+.choice-2{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    /* добавлено — стиль карточки */
+    /* background: #ffffff; */                   /* белый фон, чтобы иконки/текст читались */
+    border-radius: 12px;                   /* скругление углов */
+    /* padding: 24px; */                         /* внутренние отступы */
+    /* box-shadow: 0 8px 20px rgba(17,24,39,0.08); */ /* мягкая тень */
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+/* hover — лёгкое "поднятие" */
+.choice-2:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(17,24,39,0.14);
+}
+.choice-3{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+    /* добавлено — стиль карточки */
+    /* background: #ffffff; */                   /* белый фон, чтобы иконки/текст читались */
+    border-radius: 12px;                   /* скругление углов */
+    /* padding: 24px; */                         /* внутренние отступы */
+    /* box-shadow: 0 8px 20px rgba(17,24,39,0.08); */ /* мягкая тень */
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+}
+
+/* hover — лёгкое "поднятие" */
+.choice-3:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(17,24,39,0.14);
+}
+.choice-container>.choice-1>ul{
+     box-sizing: border-box;
+     display: flex;
+     padding: 16px 20px;
+     flex-direction: column;
+}
+.choice-container>.choice-2>ul{
+     box-sizing: border-box;
+    display: flex;
+    padding: 16px 20px; 
+    flex-direction: column;
+}
+.choice-container>.choice-3>ul{
+     box-sizing: border-box;
+    display: flex;
+    padding: 16px 20px; 
+    flex-direction: column;
+}
+.choice-container>.choice-1>ul>li{
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    max-width: 510px;
+    text-align: center;
+    gap: 20px;
+    position: relative;
+    text-align: left;
+    font-weight: 500;
+    margin-left: -20px;
+    font-family: "Inter", sans-serif;
+
+    margin-top: 20px;
+    color: var(--var1-color);
+    line-height: 140%;
+    gap: 20px;
+}
+.choice-container>.choice-2>ul>li{
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    max-width: 510px;
+    text-align: center;
+    gap: 20px;
+    position: relative;
+    text-align: left;
+    font-weight: 500;
+    margin-left: -20px;
+    font-family: "Inter", sans-serif;
+
+    margin-top: 20px;
+    color: var(--var1-color);
+    line-height: 140%;
+    gap: 20px;
+}
+.choice-container>.choice-3>ul>li{
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    max-width: 510px;
+    text-align: center;
+    gap: 20px;
+    position: relative;
+    text-align: left;
+    font-weight: 500;
+    margin-left: -20px;
+    font-family: "Inter", sans-serif;
+
+    margin-top: 20px;
+    color: var(--var1-color);
+    line-height: 140%;
+    gap: 20px;
+}
+.choice-header-1{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    display: flex;
+    font-weight: 700;
+    color: var(--var1-color);
+    justify-content: center;
+    align-items: center;
+}
+.choice-header-2{
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--var1-color);
+}
