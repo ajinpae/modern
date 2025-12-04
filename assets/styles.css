@@ -312,8 +312,9 @@ li img {
 
 .price {
     display: flex;
-    gap: 40px;
+    /* gap: 40px; */
     flex-direction: column;
+    margin-bottom: 150px;
 }
 
 .prices>ul {
@@ -623,7 +624,8 @@ body {
     width: 100%;
     margin: 16px 40px 72px 40px;
     display: grid;
-    grid-template-columns: 128px 1fr 120px;
+    /* grid-template-columns: 128px 1fr 120px; */
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 32px;
 }
@@ -815,12 +817,16 @@ ul>li>a:hover {
 
 .We {
     font-family: "Inter", sans-serif;
-    font-size: 55px;
+    margin-top: 80px;
+    font-size: 31px;
     font-weight: 400;
+    margin-bottom: 6px;
+    padding: 44px;
     color: var(--var1-color);
     max-width: 600px;
     text-align: left;
-    line-height: 140%;
+    letter-spacing: -1px;
+    line-height: 124%;
 }
 
 .Area {
@@ -888,7 +894,7 @@ li img {
 
 .price {
     display: flex;
-    gap: 40px;
+    /* gap: 40px; */
     flex-direction: column;
 }
 
@@ -1127,5 +1133,27 @@ li img {
     /* добавлено — подчеркивание вместо border-div */
     margin-top: 32px;
     padding-bottom: 20px;
-    border-bottom: 1px  solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+/*-------------------------section skeptical-------------------------------------------*/
+.John {
+    font-size: 14px;
+    list-style: none;
+    display: flex;
+    max-width: 510px;
+    margin-left: 40px;
+    text-align: center;
+    gap: 20px;
+    position: relative;
+    text-align: left;
+    font-weight: 500;
+    /* margin-left: -20px; */
+    font-family: "Inter", sans-serif;
+    margin-bottom: 20px;
+    color: var(--var1-color);
+    line-height: 140%;
+    /* gap: 20px; */
+}
+.skeptical-container>.price>.Benefits {
+  margin-left: 40px
 }
