@@ -332,6 +332,7 @@ li img {
     font-size: 14px;
     color: #ffffff;
     white-space: nowrap;
+        margin-top: 10px;
     background-color: #5a6611;
     border-radius: 34px;
     display: flex;
@@ -1157,3 +1158,5 @@ li img {
 .skeptical-container>.price>.Benefits {
   margin-left: 40px
 }
+/*-------------------------section map-------------------------------------------*/
+
